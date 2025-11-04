@@ -22,8 +22,9 @@ describe('plugin', () => {
   it('should correctly open a new window in headless mode (puppeteer-with-fingerprints#117)', async () => {
     const page = await browser.newPage();
 
-    await page.goto('https://www.producthunt.com/products/etsy-geeks', { waitUntil: 'domcontentloaded' });
-    await Promise.all([page.click("a[href*='etsygeeks.org']"), setTimeout(5000)]);
+    await page.goto('https://bablosoft.com/shop/BrowserAutomationStudio', { waitUntil: 'domcontentloaded' });
+
+    await Promise.all([page.click("a[href*='community.bablosoft.com']"), setTimeout(5000)]);
 
     try {
       await page.waitForNavigation();
