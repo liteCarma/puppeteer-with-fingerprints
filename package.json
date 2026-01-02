@@ -48,7 +48,7 @@
     "src"
   ],
   "dependencies": {
-    "browser-with-fingerprints": "2.3.5"
+    "browser-with-fingerprints": "github:liteCarma/browser-with-fingerprints"
   },
   "devDependencies": {
     "@cheshire-caat/prettier-config": "^1.0.0",
