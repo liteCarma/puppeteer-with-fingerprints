@@ -1,18 +1,14 @@
 {
   "name": "puppeteer-with-fingerprints",
   "description": "A plugin that improves the stealth of the puppeteer library using fingerprints",
-  "homepage": "https://github.com/CheshireCaat/puppeteer-with-fingerprints#readme",
+  "homepage": "https://github.com/litecarma/puppeteer-with-fingerprints#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CheshireCaat/puppeteer-with-fingerprints.git"
+    "url": "git+https://github.com/litecarma/puppeteer-with-fingerprints.git"
   },
-  "author": "CheshireCaat",
-  "version": "2.3.4",
+  "author": "litecarma",
+  "version": "2.3.5",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CheshireCaat/puppeteer-with-fingerprints/issues",
-    "email": "cheshirecat902@gmail.com"
-  },
   "type": "commonjs",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -52,7 +48,7 @@
     "src"
   ],
   "dependencies": {
-    "browser-with-fingerprints": "2.3.4"
+    "browser-with-fingerprints": "2.3.5"
   },
   "devDependencies": {
     "@cheshire-caat/prettier-config": "^1.0.0",
